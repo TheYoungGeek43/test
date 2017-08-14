@@ -52,6 +52,11 @@ namespace GameRPG
         {
         }
 
+        public int AgeUtilisateur(int test)
+        {
+            return test;
+        }
+
         protected override void Update(GameTime gameTime)
         {
             this.keyboard = Keyboard.GetState();
