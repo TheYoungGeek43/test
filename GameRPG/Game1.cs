@@ -45,7 +45,7 @@ namespace GameRPG
             spriteBatch = new SpriteBatch(GraphicsDevice);         
             RessourceManager.Initialize(Content);
             player.AddComponent(new Sprite("heros", 200, 200));
-            player.AddComponent(new Hitbox(16, 16, 0, 0, Color.Red));
+            player.AddComponent(new Hitbox(16, 16, 0, 0, Color.Green));
         }
 
         protected override void UnloadContent()
